@@ -1,0 +1,162 @@
+/*ancho 960px
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    border-top: 6px solid #ededed;
+}
+#contenedor{
+    width: 960px;
+    margin: 0  auto;
+}
+#contenedor img{
+    padding-left: 96px;
+    padding-bottom: 41px;
+}
+#superior1 ul{
+    
+    list-style: none;
+    border-bottom: 7px solid #676766;
+}
+#superior ul li{
+    float: left;
+    padding: 0px 35px 0px;
+}
+#superior ul li a{
+    text-decoration: none;
+    color: #676766;
+    font-size: 18px;
+}
+#superior1{
+    padding-bottom: 30px;
+}
+h2{
+    color:#d3001c;
+    font-size: 22px;
+}
+#superior2 h2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#superior2 p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #666666;
+}
+
+#medio{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 61px;
+}
+#medio #h31{
+    font-size: 18px;
+    color: #8c0013;
+}
+.bloques h3{
+    color: #707070;
+    
+}
+.bloques{
+    margin-top: 17px;
+    float: left;
+    width: 441px;
+    background-color: #f5f3f3;
+    color: #707070;
+}
+.bloques+.bloques{
+    margin-left: 18px;
+}
+.bloques h3 , p{
+    padding-top: 15px ;
+    padding-left: 21px;
+    font-size: 14px;
+}
+.bloques h3{
+    font-size:16px;
+}
+#b1 .p2{
+    width: 377px;
+    margin-right: 43px;
+    padding-bottom: 104px;
+}
+#b1 span{
+    position: relative;
+    left: 345px;
+    color: black;
+    
+}
+#b1 strong{
+    color: #d83e4c;
+} 
+#b1{
+    position: relative;
+    padding-bottom: 17px;
+}
+#b1 img{
+    position: absolute;
+    top: 41px;
+    right: 41px;
+}
+#b1 p{
+    width: 255px;
+}
+#b2 .p2{
+    width: 377px;
+    margin-right: 43px;
+    padding-top: 0px;
+    padding-bottom: 21px;
+}
+#b2 .p3{
+    width: 377px;
+    margin-right: 43px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+#b2 span{
+    position: relative;
+    left: 345px;
+    color: black;
+}
+#b2 strong{
+    color: #d83e4c;
+} 
+#b2{
+    position: relative;
+    padding-bottom: 17px;
+}
+#b2 img{
+    position: absolute;
+    top: 41px;
+    right: 41px;
+}
+#b2 p{
+    width: 210px;
+}
+#inferior h2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#inferior p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 46px;
+    padding-top: 20px;
+    color: #666666;
+}
+#inferior h4{
+    text-align: center;
+    padding: 27px 340px;
+    background-color: #e2e0e0;
+    font-size: 14px;
+    color:#45c6ad;
+}
